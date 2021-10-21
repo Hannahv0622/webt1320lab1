@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(177, 111, 26);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#container {
+    background-color: #F2CA99;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+header {
+    padding-top: 20px 0;
+    background-color: #e9e7db;
+    border-radius: 20px 20px 0 0;
+}
+
+header img {
+    display: block;
+    width: 30%; 
+    margin: 20px auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: tan;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav {
+    background-color: #F2CA99;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: rgb(98, 191, 228);
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px; 
+    color: black;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #F2CA99;
+    color: rgb(98, 191, 228);
+}
+
+main {
+    background-color: rgb(98, 191, 228);
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+
+main h2 {
+    text-align: center;
+    color: sienna;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background-color: sienna;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #F2CA99;
+    padding: 40px 0;
+    color: rgb(98, 191, 228);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.active {
+    background-color: sienna;
+    color: rgb(98, 191, 228);
+}
+
+.pro_head {
+    text-align: center;
+    color: sienna;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
